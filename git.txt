@@ -1,0 +1,102 @@
+
+working directory
+staging area 
+local repository
+========================
+remote repository
+
+git --version
+
+git config --list
+
+git config --global user.name "name"
+git config --global user.email "email"
+
+git init 
+
+git status
+
+git add <file>
+git add *.副檔名
+git add --all
+
+
+git commit -m "message"
+git commit -a -m "message"
+git commit -am "message"
+
+===========================================
+#為什麼要兩次
+1.廣場和倉庫
+2.逐筆檢查
+3.
+
+#commit
+1.沒有一定
+2.一個階段
+3.一天至少一次
+
+=============================================
+
+git log
+git log --oneline
+
+git reset <資訊碼>
+
+git restore <file>
+
+git restore --staged <>
+
+git diff
+
+git reflog
+===============================================
+HEAD 指標現在分支位置
+
+git branch
+
+git branch <>
+
+git checkout <>
+
+git merge <>
+
+git branch -m <> <>
+git branch -M <>
+
+git branch -d <>
+
+===============================================
+
+git remote add origin https://github.com/ispanzl/gitapp2.git
+
+git remote -v
+
+git push -u origin main
+
+
+#別人的專案
+git remote set-url origin 
+
+git remote set-url origin https://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@github.com/ispanzl/gitapp2.git
+
+========================================================
+
+README.md
+markdown語法
+###### tags:`git`
+
+.gitignore
+
+https://www.toptal.com/developers/gitignore
+
+git pull 
+
+git clone
+
+gui
+1.github desktop
+https://desktop.github.com/
+2.sourcetree
+https://www.sourcetreeapp.com/
+3.vscode + git graph(plugins)
